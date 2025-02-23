@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Realtime Collaborative Whiteboard</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <!-- Toolbar with a color picker and a clear board button -->
+    <div id="toolbar">
+      <input type="color" id="colorPicker" value="#000000" />
+      <button id="clearButton">Clear Board</button>
+    </div>
+
+    <!-- Canvas for drawing -->
+    <canvas id="whiteboard"></canvas>
+    
+    <!-- Load client-side code as a module -->
+    <script type="module" src="/src/client.js"></script>
+  </body>
+</html>
